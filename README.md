@@ -1,1 +1,1 @@
-# juraiz.com
+# juraiz
