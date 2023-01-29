@@ -1839,7 +1839,7 @@ video {
 
 /* ========== Mobile M-375px (max-width: 375px) - end ========== */
 
-@media only screen and (max-width: 370px) and (min-width: 325px) {
+@media only screen and (max-width: 374px) and (min-width: 321px) {
   header.sticky {
     padding: 20px 5px 0px 1px;
   }
