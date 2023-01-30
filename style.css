@@ -1700,8 +1700,8 @@ video {
   }
 
   .review-img {
-    max-width: 300px;
-    padding-right: 30px;
+    max-width: 370px;
+    padding-right: 50px;
     padding-left: 0px;
   }
 
@@ -1728,6 +1728,119 @@ video {
 }
 
 @media screen and (max-width: 393px) {
+  section {
+    padding: 70px 2% 0px;
+  }
+
+  header.sticky {
+    padding: 7px 5% 0px 10px;
+  }
+
+  .home-text {
+    text-align: center;
+  }
+
+  .home-img img {
+    height: 380px;
+    width: 280px;
+    margin: 70px 30px;
+  }
+
+  .about-text h4 {
+    font-size: 15px;
+  }
+
+  .about-text p {
+    padding: 25px;
+  }
+
+  .about-img img {
+    max-width: 250px;
+    margin: 10px 0px 0px 65px;
+  }
+
+  .h5 {
+    font-size: 1rem;
+  }
+
+  .services-content {
+    margin-top: 0rem;
+  }
+
+  .row {
+    --bs-gutter-x: -1rem;
+  }
+
+  .box {
+    margin: 25px;
+    margin-bottom: 0px;
+  }
+
+  .box p {
+    line-height: 25px;
+  }
+
+  .main-text h4 {
+    font-size: 13px;
+  }
+
+
+  .card_team {
+    width: 80%;
+    margin: 35px;
+  }
+
+
+  element.style {
+    width: 368px;
+  }
+
+  .swiper-button-next {
+    right: 2%;
+  }
+
+  .swiper-button-prev {
+    left: 7%;
+  }
+
+  .main-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .services_modal .modal_item li {
+    font-size: 12px;
+  }
+
+  .modal .modal-dialog {
+    max-width: 350px;
+    margin: 20px;
+  }
+
+  .review-img {
+    max-width: 200%;
+    padding-right: 220px;
+    margin-left: -21px;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+  }
+
+  .main-text h2 {
+    font-size: 1.9rem;
+  }
+
+  .mh-professional-progrees li {
+    margin: 20px 55px;
+  }
+}
+
+@media screen and (max-width: 390px) {
   .home-img img {
     margin: 70px 25px;
   }
@@ -1739,6 +1852,10 @@ video {
 
   .mh-professional-progrees li {
     margin: 20px 49px;
+  }
+
+  .review-img {
+    margin-left: -23px
   }
 }
 
@@ -1824,8 +1941,9 @@ video {
   }
 
   .review-img {
-    max-width: 370px;
-    padding-right: 95px;
+    max-width: 200%;
+    padding-right: 220px;
+    margin-left: -21px;
   }
 
   .main-text h2 {
@@ -1853,9 +1971,11 @@ video {
     grid-template-columns: repeat(auto-fit, minmax(300px, 200PX));
     margin-left: 20px;
   }
-  .services_modal{
+
+  .services_modal {
     margin: -10px;
   }
+
   .swiper-button-next {
     right: 0%;
   }
@@ -1863,10 +1983,11 @@ video {
   .swiper-button-prev {
     left: 8%;
   }
+
   .review-img {
     max-width: 180%;
     margin: -30px 0px -30px -30px;
-    
+
   }
 }
 
@@ -1970,9 +2091,11 @@ video {
   .swiper-button-next {
     right: -4%;
   }
-  .modal-header{
+
+  .modal-header {
     margin-top: 5px;
   }
+
   .modal .modal-dialog {
     max-width: 300px;
     margin: 10px;
@@ -1981,7 +2104,7 @@ video {
   .review-img {
     max-width: 200%;
     margin: -30px 0px -30px -30px;
-    
+
   }
 
   .skill>p {
