@@ -1,2 +1,1 @@
 # juraiz
-# jubayer
