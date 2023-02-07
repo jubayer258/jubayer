@@ -1623,6 +1623,14 @@ video {
 }
 
 @media screen and (max-width: 540px) {
+  .home-img img {
+    height: 450px;
+    width: 330px;
+    margin: 70px 30px;
+  }
+  .about-img img {
+    margin: 0px 40px;
+}
   .review-img {
     max-width: 400px;
   }
@@ -1957,6 +1965,7 @@ video {
 
 /* ========== Mobile M-375px (max-width: 375px) - end ========== */
 
+/* ========== Mobile M-360px amer mobile siz (max-width: 360px) - start ========== */
 @media screen and (max-width: 360px) {
   section {
     padding: 70px 2% 0px;
@@ -2081,6 +2090,7 @@ video {
     margin: 20px 50px;
   }
 }
+/* ========== Mobile M-360px amer mobile siz (max-width: 360px) - end ========== */
 
 /* ========== Mobile S-320px (max-width: 320px) - start ========== */
 @media screen and (max-width: 320px) {
@@ -2212,5 +2222,4 @@ video {
     bottom: 0.1rem;
   }
 }
-
 /* ========== Mobile M-320px (max-width: 320px) - end ========== */
