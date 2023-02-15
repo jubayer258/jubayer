@@ -1986,7 +1986,7 @@ video {
   .home-img img {
     height: 380px;
     width: 280px;
-    margin: 70px 8px;
+    margin: 70px 20px;
   }
 
   .about-text h4 {
@@ -1999,7 +1999,7 @@ video {
 
   .about-img img {
     max-width: 250px;
-    margin: 10px 0px 0px 38px;
+    margin: 10px 0px 0px 55px;
   }
 
   .h5 {
