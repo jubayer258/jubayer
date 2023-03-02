@@ -437,12 +437,11 @@ header.sticky {
   transition: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.portfolio_item:hover .portfolio_live_btn a {
+/* .portfolio_item:hover .portfolio_live_btn a {
   opacity: 1;
   transform: translateY(0px);
   transition: 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
-  background-color: var(--main-color);
-}
+} */
 
 .portfolio_item .product_img {
   display: -webkit-box;
@@ -486,7 +485,9 @@ header.sticky {
   -webkit-transform: translateY(40px);
   transform: translateY(40px);
   border: 1px solid var(--main-color);
-  opacity: 0;
+  background-color: var(--main-color);
+
+  /* opacity: 0; */
 }
 
 .product_text {
